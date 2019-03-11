@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>ZWEMBAD</title>
+</head>
+<body>
+
+<div class="container">
+
+    <div class="div_lange_links">
+        <h1>Zwembad</h1>
+
+        <form method="post" action="bestel_kaartjes.php"><br>
+            <label>Voornaam<br> <input type="text" name="voornaam"></label><br>
+            <label>Achternaam<br> <input type="text" name="achternaam"></label><br>
+            <label>E-mail<br>    <input type="email" name="email"></label><br><br>
+
+
+        </form>
+
+    <div>
+        <h3>Soort Kaartje<br></h3>
+
+        <select name="kaartsoort">
+        <option value="dagkaart">Dagkaart</option>
+        <option value="een_uur_kaart">1 uur kaart</option>
+        <option value="twee_uur_kaart">2 uur kaart</option>
+        <option value="drie_uur_kaart">3 uur kaart</option>
+    </select>
+
+    </div><br>
+
+        <form method="post" action="bestel_kaartjes.php"><br>
+            <input type="submit" name="submit"><br>
+        </form>
+
+    </div>
+    <div class="div_midden">
+       <a href="inlog.html">inlog admin</a>
+    </div>
+
+</div>
+
+<div class="div_onzichtbaar_rechts_boven">onzichtbaar rechts boven</div>
+<div class="div_onderin_rechts"> onderin rechts</div>
+
+</body>
+</html>

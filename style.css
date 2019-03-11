@@ -1,0 +1,34 @@
+body {
+    background-color: springgreen;
+    padding: 10px;
+}
+
+.div_lange_links {
+    background-color: blue;
+    width: 33%;
+    padding: 4px;
+    height: 600px;
+}
+.test {
+    display: flex;
+}
+
+.div_midden {
+    background-color: red;
+    width: 33%;
+    margin-left: 20px;
+    padding: 2px;
+    height: 272px;
+}
+
+.container {
+    display: flex;
+}
+
+.div_onzichtbaar_rechts_boven {
+    background-color: pink;
+}
+
+.div_onderin_rechts {
+    background-color: yellow;
+}
